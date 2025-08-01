@@ -1,0 +1,34 @@
+{
+  "name": "flipside-simple-api-query",
+  "version": "1.0.0",
+  "description": "A sample TypeScript project demonstrating basic features.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "watch": "tsc -w",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@flipsidecrypto/sdk": "^2.1.0",
+    "@types/node": "^24.1.0",
+    "dotenv": "^17.2.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/typescript-sample.git"
+  },
+  "author": "HooriRn",
+  "license": "MIT"
+}
