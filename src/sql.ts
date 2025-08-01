@@ -167,7 +167,6 @@ SELECT DISTINCT
   *
 FROM qt
 WHERE OUTBOUND_ASSET = '${outbound_asset}'
-LIMIT 10
 ;
 `
 
